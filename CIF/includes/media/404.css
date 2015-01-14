@@ -1,0 +1,102 @@
+.wrapper {
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition:none;
+}
+
+body {
+	background-image: url(bg-404.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.notfound{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 555px;
+	height: 350px;
+	margin-top: -150px;
+	margin-left: -430px;
+	padding-left:310px;
+	background:url(bg-notfound.png) no-repeat left top;
+	overflow:hidden;
+}
+.notfound.style2{
+	width: 555px;
+	height: 290px;
+	margin-top: -125px;
+	margin-left: -352px;
+	padding-left:150px;
+	background-image: url(../images/logo-medium.png);
+}
+.notfound h1{
+	font-family: 'MuseoSans_xFat';
+	font-size:6em;
+	margin-bottom: 10px;
+	line-height: normal;
+	margin-left: -8px;
+}
+.notfound.style2 h1{
+	font-size:7em;
+	line-height: 100%;
+}
+.notfound p{
+	font-family: 'MuseoSans_Thin';
+	font-size: 23px;
+	line-height:130%;
+}
+.notfound.style2 p{
+	margin-bottom: 10px;
+}
+.notfound p a{
+	color:#444;
+	text-decoration:underline;
+}
+.notfound p a:hover{
+	text-decoration:none;
+}
+
+/* MEDIA QUERIES */
+
+/* 100% + 25 + 25 */
+
+@media screen and (max-width: 1483px) {
+
+	/* GENERALS */
+
+	.wrapper {
+		width: auto;
+		margin:0;
+		padding:0 25px;
+		-webkit-transition: none;
+		-moz-transition: none;
+		transition:none;
+	}
+
+}
+
+/* 1024 + 25 + 25 */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+/* iPad/iPhone [portrait + landscape] */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* HORIZONTAL / Target landscape smartphones, portrait tablets, narrow desktops */
+
+@media screen and (min-width:480px) and (max-width:700px) {
+
+}
+
+/* VERTICAL / Target portraitsmartphones */
+
+@media screen and (max-width:479px) {
+
+}

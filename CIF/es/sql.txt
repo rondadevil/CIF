@@ -1,0 +1,24 @@
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `fruitsratelist`
+--
+
+CREATE TABLE IF NOT EXISTS `fruitsratelist` (
+  `Fruitname` varchar(15) NOT NULL,
+  `Rate` double NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `fruitsratelist`
+--
+
+INSERT INTO `fruitsratelist` (`Fruitname`, `Rate`) VALUES
+('Apple', 70),
+('Apple', 90),
+('Mango', 60),
+('Banana', 70),
+('Strawberry', 80),
+('Apple', 40),
+('Lemon', 70),
+('Kiwi', 80);
